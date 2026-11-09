@@ -1,0 +1,2581 @@
+{
+  "source_app_version": "3.7.10",
+  "source_app_build": "1",
+  "source_bundle_id": "kr.co.kyobobook.iPadB2C",
+  "architecture": "arm64",
+  "executables": [
+    {
+      "path": "iPadB2C",
+      "carrier_sha256": "be0afb7f9157646b40cd8149412dec8f26c9ba4300af5c278f8d9cd699b8acc2",
+      "arm64_sha256": "be0afb7f9157646b40cd8149412dec8f26c9ba4300af5c278f8d9cd699b8acc2",
+      "patches": [
+        {
+          "offset": 16,
+          "before": "7e",
+          "after": "7f"
+        },
+        {
+          "offset": 20,
+          "before": "50",
+          "after": "98"
+        },
+        {
+          "offset": 4993,
+          "before": "4018",
+          "after": "000e"
+        },
+        {
+          "offset": 5008,
+          "before": "702a18",
+          "after": "d0ff0d"
+        },
+        {
+          "offset": 5232,
+          "before": "02",
+          "after": "06"
+        },
+        {
+          "offset": 5280,
+          "before": "d094",
+          "after": "009e"
+        },
+        {
+          "offset": 5312,
+          "before": "01",
+          "after": "00"
+        },
+        {
+          "offset": 13420,
+          "before": "004c0b",
+          "after": "602101"
+        },
+        {
+          "offset": 13424,
+          "before": "00",
+          "after": "0c"
+        },
+        {
+          "offset": 13428,
+          "before": "00",
+          "after": "48"
+        },
+        {
+          "offset": 13432,
+          "before": "00",
+          "after": "18"
+        },
+        {
+          "offset": 13442,
+          "before": "00",
+          "after": "01"
+        },
+        {
+          "offset": 13446,
+          "before": "00",
+          "after": "01"
+        },
+        {
+          "offset": 13448,
+          "before": "00000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "after": "4065786563757461626c655f706174682f5265736561726368426f6f7473747261702e64796c6962"
+        },
+        {
+          "offset": 1413108,
+          "before": "08c300f008f982b9",
+          "after": "000080d2c0035fd6"
+        },
+        {
+          "offset": 1413120,
+          "before": "f5c3e88a93c06e07872986e836b71b5700c971ee8e6619d53e13e186fb0add4ab1f734a1c1eb8ddf8bdcc846a198121e830eadac268be730e553a81750f95b8473349f9dd23ef64f4536318d877afa635973fefc3f0efa10f1939ae81c083208c2b8e9be18aa41a5099d7eccb4402877f32f64a7f9cedc3b49fe55a86340ef3fad87f13fb7e82c666828cdb78c4520669387a97a5e271273145e8278d298f0c0ce23810d52aa4c36f97897",
+          "after": "c0035fd6000080d2c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6000080d2c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035f"
+        },
+        {
+          "offset": 1413292,
+          "before": "297fe6a3deb5b6c203d7245d9cffe9d3e1cc73812a16f962337a2ffffd96e03d2be12dd83e4922ac798f788ad0f147c8835f16b0d3ca873695c2df24e3e0e27698c04e494f1aee5cd8af08cf90dd1d16e3864b128270db45d4c307c867402f906927b4036c02d3cc730ad5baad517bcde423a4b998f324ad1a17da2c185c53e7",
+          "after": "c0035fd6c0035fd6c0035fd6c0035fd6000080d2c0035fd6c0035fd6000080d2c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6"
+        },
+        {
+          "offset": 1413421,
+          "before": "b80a816bd2181c172abaff978ca74d0cd9019e584af77c5c323391cb8b96b7cbb0d15cdbf0ad86733e154b9dfd9875287879cbde0ccfd0ed9d21d190bee50c5839fb2833e7b77848554ecd743aa95d735979c42917002a4f0a051c1ab2f2e4071fe28386fd6f065ad059fb006721e5b9fef210d443f1d156cd95741b861e7bb70e4425e034d86192a82401860d215207bd0c2eb1be734a6c090c09b7faaa473052de3cd6c47ba7250c8553cf0d369e506f176c3ef9f3a8c85639e2fd1540b02b37bbec57901a599b6e6bfc46ef56c4bcdb64fb884f026d8411af850b739844fdf84b5081f383a3574e6520019a81d9de78554758",
+          "after": "035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0"
+        },
+        {
+          "offset": 1413666,
+          "before": "d1a1de4a40fd36404d7f42751fc71455e422abc01ec18e72d77424095e218820abdf2de3eba923594ba434d52ba7ad9fff639f07f058ab0fce7cc1970bc62c61501e050ad1df5cb5c3e92404b31f2d1eaee463ded7c48500548329a2e5f7ce2bdcc5f8fd3fc2c21576dca09b4d35f6c3fe4322f4c98613619a4229090619e7069862",
+          "after": "5fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6"
+        },
+        {
+          "offset": 1413797,
+          "before": "b691959c0a7ab611a9e3d0fa81c81efea861aa97825e97b6339f4c559e4d40511e15ed40bbcdc6e7e23b6315bf248ce4471ce38b821ef855a06b771b5aa185cd1edc8b714306cd8f4bac6869d5d405a66650c1d425d800ae537f56cbe6ed0c65b8242b6331cec14d09bb799b6b318d7ac562a90782e465",
+          "after": "035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6"
+        },
+        {
+          "offset": 1413917,
+          "before": "a99bad2b3603a3f530048dfe1be567a1e90a02359ae61346004d7c00d86e329def7b785095d3386fa95a0421936416ee848302f5baeb36099e0e44cb288d8a9bec697582e8ad5b34",
+          "after": "035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0"
+        },
+        {
+          "offset": 1413990,
+          "before": "e88ed4c5a99e3fe27f997112275885027534a273d447d31fff235939a280283ddec2713e8dd3a0b0e236c301effec9404393314fba33baa3d98d6347b33fe1638446e579fd71cc2d",
+          "after": "5fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c003"
+        },
+        {
+          "offset": 1414063,
+          "before": "ec972e4ec2f3e741e441d6bd50efc8f40d3aa2f78b0220663bbb51bdb8c704c87ba52dc21b1973b4872aa4f3ae7d9a8db690837a399f1749a82201a436a3bb5b1f35de5b28ad8caa2edb8cfb04602d2285fd90be1267016fd56f4cd011e0b79ab26c59af800809d5e5650974bc9e9df45a35f83a7068b6e155bdefd39f4e6f8d6842580e34f14d5b9f74544bb4919f6b06639bb89835fdbab93e18f9ae8c449293fffd771fa583518d6205fb4c096c913e684e870073510d264eaf77ba90090ba5d6bdacd2c12c748ac880e3f2cb2f2740e40fc2ea0ca44e70d51abf348f912920865398bf9bc1dbc33898ecadce4bcfb3476230cb242e7614f97b8849a2defb284bab4b34094f58b02dae4347c5e520d06987a22b49bd60",
+          "after": "d6c0035fd6c0035fd6000080d2c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6000080d2c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6000080d2c0035fd6c0035fd6c0035fd6c0035fd6000080d2c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6000080d2c0035fd6c0035fd6c0035fd6c0035fd6000080d2c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6000080d2c0035fd6c0035fd6c0035fd6c0035fd6000080d2c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035f"
+        },
+        {
+          "offset": 1414344,
+          "before": "078f1af6b10cc219ef213c7c813908783fec0637aa6cad694855e44d865ffc3974bc635ea354ab2d41752fc766de42a15f6ab0b8fd70",
+          "after": "c0035fd6c0035fd6000080d2c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c003"
+        },
+        {
+          "offset": 1414399,
+          "before": "26d5fd9ba39332d867973a89710114de8f9ea3f4a0baf0e038ca5ad50f30be47f887519aed7044f66c1df6dcb821cdfd55cd135a6e4ae3f1c7a97962b51f3f48a09502a17eb34cb886c374eba345ab29008c9648c02dc212eee1d6a7739bea3963e6f9b1126e80c84b07480e97b41eca3e5482c67e4d824322bf8f9e0f8c87feac378328eadc4800e394c39421fa948d139ec8df323508b9e210415bd2d8c7b9680bdbed984dec05034ab813b08685dbd578e7db92afd29e4d3dcfcb1da552a1ef041f3465122d7bcf87081b1d0f8fadaea033c16414ce22975629ffb3f7041968f3212239b84c1e468f89271478b283b468ad245a5d18b26849b065d83db435a364d586a6d763ec76a4758c7ba6a347dd9c7a7c6b12975485ece3560acc902fb5e0be7702aac2792a1c37e4e84b45ac7a232bfee394b70c229a199f5bd2c56820805cdfe180f37028df6f3c4050f258e34baf3be3cc41c39a975a69ea",
+          "after": "d6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6000080d2c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6000080d2c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6"
+        },
+        {
+          "offset": 1414749,
+          "before": "2e5ab9f379eaac061030f25804232ceac415de12a4b1cc9441bf346a0cd579e2082606c115f206a54b0e59a88a9cb488adb907f1e3b710dc697e1c1da34d2369e8085d9ecb082af60180ea819fb2c6d7d2f77180f73ada9887e859f7029e20b78886fdf34adb8e164d124f89385543ec2f2a1b440018938abcbb7f18558b0dab68fda6545ec3660c7805003092203c37087ab7813be848f21bb97d0ae8d2dd2cfa380a02a3cca175fdea46ec39af34d838531257b200629941355d19385dd813dc6e23c4f02ebe37017cfa43791ffc52a3519a7ccc60dbae4d5531c417da6594965e478b9a9004c660ed887c0de5b2eece70a656ff7472f2d1b458c139846c5d08f540c9445901a78adf8fad0c1b68ea77aef089270131fcc9e7297bf51bc78e467c9fde087c03a0db609958a381a3d7b59cf26271bbdca8134182c9da5bdba495efcc2e0bcf833bdcdc219e1b3f3b0f4260095a701e76a5c3e51e28cc5268536c964f55598a40df8fdab8fc205ee28f5571bf622eb96503de627f2cc56054127b929c31d15cab5b1ae055e81706ca12d879869ef758b414eaa41066e1a30a1365dbb789fc91934bea194d3a83e819b0e55df6dec911fb0185efd8e5b3f081ce882e879de20a20a94b0f06050bba88c8be230831d31aaf36c62ee610fea4b6650d3aac729d015a098b5ac3d55b66a90914284514c08af5598fc02ef06c0abf5429b407b819073b5b347eb85e3ab6722ac8fde6d960355a3739521f68a7f337586866322fa4b18ef0c66377daa6ce536778f498463d04ddb9b127471194bc82b101b679fc113a7069e7c093020d2737e87b3cc70246931930c15c9be646ecdf7cf979dbca71212f4be6dfbbe095aabd15ed569ec975e8c458c2f8faa58a4076f86a465152b4946f1a1640f1a9ac52cb606e3fa8330b3c3a5cf47934ca0ee6d4",
+          "after": "035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6000080d2c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6000080d2c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6"
+        },
+        {
+          "offset": 1415421,
+          "before": "b65a50ea70dadf931437af09d033381a07e41b928ef614abe03f7ba4b9a7aab049e1a1e8485d2124eaed61f4188959ef44303d998e6d25d81308ca1a2d5bb1623fed4c7fc6a19b858301cacce14c9c78377c3fd9f7df51e47f0b071d9e63fa46c3c89d73eb704863b157139ee01cb2381d95690e7728b285dcfcff664527414db4341f942f0f183344d13884216309211bcd5e19a189eb98d130b4a299ce41d0db0990fe23013c6d569f87838a51d73853406f",
+          "after": "035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6"
+        },
+        {
+          "offset": 1415601,
+          "before": "93c78a89c31d01a0aff37ebf2041593c8f4855f637a14f652edc585d204c97bb0772a0ed1e1eabc36cdcccb909e89b5f",
+          "after": "035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0"
+        },
+        {
+          "offset": 1415650,
+          "before": "974c407c4782b0491de501928f081a8402277ee3f3546cb6986c480ad68d4de538c0916515b219eeffc5c8d57f0cffa922fc1754b014ab5ab46c2a89e2562218c8cc123a27e8f491bb1faf6f90930d949a5cf9eae3f06577f55a0e89370c96c635644484fe4f6694be320436c9311829d7ffa6a1e671acd140797b6211214ff56c570db156e816d0949df6203e1bf7de06d0d4d29fc7fd29a1bb10e979fe1a0ec953c936d2baa005107506896706dc0588da43652db7a7468cc3d79a97de3e",
+          "after": "5fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0"
+        },
+        {
+          "offset": 1415842,
+          "before": "666cbddf271f2bba23f9340d7c",
+          "after": "5fd6c0035fd6c0035fd6c0035f"
+        },
+        {
+          "offset": 1415856,
+          "before": "1fc56b91f95e720853f68b62c9dda0dc295d6bcbb04f561c511eb943a4e8f6c06dccd99d573c4c351c780adbcf472acce356c23343fe6d824e04410e77810bd4d1e223515099",
+          "after": "c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c003"
+        },
+        {
+          "offset": 1415927,
+          "before": "b8801355b8693693c4d8a82932872372079a354906a74c54f10f58057d077613b7b2e4c55adf3b3225c7124ac4198b47c853866e8747bff691012ae59fa1a772363073b11ded76fbb1cc1449c635c585069f0ed8cbdff6f32c24ef623feb76af145a6c1c515c6a0c01873d1be0baa2fda173d5494a1d91d26852c1ef674d331dc6f4d10cdf45ef8fca6a2902d2f718adb8322896673e16e671635661da8a2c47bafa9483b1ff4eedb4072f1c6ea0b056ab1fc94ee92825f86e5ce832b747011caee5781c5bf82960f87901a0184cbcc2f42650501eedcdb121c5fb3f0dd17496508913b06ea5fbc59d4e6ecc5adc018b9c05215879bb12d3894922a6226995bb06559bb8b179bfbb7b1a15c6f09c7979da10acddc4c1a00189ecb2f8d77899ef9c9ed7b22f1f4254069523547f43ef7f85768728cba51b89e969a5ba2a0c19f2192e4e6cdbdf497cd4eae2b33b0d937f5524f92bd87413c7aa0d576dbd13819d1bd347d2310415d7ceecf5a8383670d23e458dacb48ec665d9823e5a80dae1624102b32e4ad282d916f5644e52f9dceb8216da8469fbd35344a4",
+          "after": "d6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6000080d2c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0"
+        },
+        {
+          "offset": 1416338,
+          "before": "ef5afd72672b2fcd5bc2ce10d0017592",
+          "after": "5fd6c0035fd6c0035fd6c0035fd6c003"
+        },
+        {
+          "offset": 1416355,
+          "before": "29186c864e0ec245adc82600d4d5e7833d6fe4a63957e5252b91b41daef4f831d4c13cc1965049a39c",
+          "after": "d6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6"
+        },
+        {
+          "offset": 1416397,
+          "before": "404bb10cc464d787bd127dd16b885c3114eae939b1edaac357767daec2f942f4f8fff75186615ee4c80c7593a56dcd28d738943e7df6a54455405dc8d2b8349d1a8dc2a12da1b0534a7dba341411135bcd86decfc6856d3f18f971c6c01362ffb78157cac1cd457184e614da6dc718964632dacf89",
+          "after": "035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c003"
+        },
+        {
+          "offset": 1416515,
+          "before": "fcce4196f17b04a07aedcd2cdba7b329829cd4f4b3113199ec5e65f44e53115366f102bc125a1d0056fd5a1e6b4d4725b60480c38c217e273f0112990150cacbd7b27fd523ee6ac579329e601c3f73ad3e504d6d6fa7967c4fac9871762bf22d99582f9a08eed4166c46ce1dc2258123aac84fc255bd9b59d0ea91dcd10e7705e5fd6259e57d713054c21ce8c3d00e7f0b23becdbf8c67e1c4e4b7b3264599135a73afd7423678f8b4daaec9754ab515cdb0f31c5afd2e0bc8192ad9f65498240a3d887e0b18e88db90b7220fc32344aed214cf010230978d35c138dda90bbb5a96c2d51d31df7c4432adfff314089739b5c3ba554fa94",
+          "after": "d6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6ffc300d1fd7b02a9fd830091f44f01a9f30300aaf40301aa9db14394e00300f900020010b8b14394e8ad4394e30300aae00313aae10314aa0200"
+        },
+        {
+          "offset": 1416763,
+          "before": "f4ad8a38f7038b2888fc843bff05c2720e34b489150555baa2f0f43375bac8fd3fe9024b30fcb4a8060ba956739f63525e3682c969801b795d8b0ae63f8ebd61979c524c741ae1f6070019c587ebf19f426f07f8d00f34a74acd44069dad",
+          "after": "d264ae4394f30300aae00340f98eb14394e00313aaf44f41a9fd7b42a9ffc30091c0035fd641707044656c656761746500c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0"
+        },
+        {
+          "offset": 1416858,
+          "before": "d690fbf8d98c392c2064a4d96af3585c32082376c63ab04af5fe1494de69462e4c6074c79d8596f1488e9a09959d2cb4100efcf110",
+          "after": "5fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035f"
+        },
+        {
+          "offset": 1416912,
+          "before": "24da3c0cb1c651a61bce249dbc8e8dcdec6fd85ea7cc43f470ae4de8ee8973ca7d2e7443acfd775b090c9695383a70e1b9a59651e62db46a502adc2d2d8353429a77ea3318a1dccdf524ef24f30871911ced72e3008db700dae93f881ffc75",
+          "after": "c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035f"
+        },
+        {
+          "offset": 1417008,
+          "before": "c4aab8c963d8c1b71ecaed0b84761da4a7597ed414b3f1bf2c659abad3d0b7c512c9af05121aff258af486b587e7fdfcebe38541111b643d29e963b96dc3b8055078237bf6931499d4df383f33ec5a6f8d52d4a42096241387af42e7e7addd7290721022094b1dd43a26b4b6f808727b814c8c498a3b1a19c4fa4135f0f31f08392ebaec0a2cfdc0bbdc596898ed2f1276108dcc8f7075a6662b63b298ea4cb19492ea34166af9ba84dd980821b7ccc1f781e15a4cba4a68acd65544b4ea762ea0ce57d726ca868c92c128b99c963273",
+          "after": "c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6000080d2c0035fd6c0035fd6c0035fd6000080d2c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6c0035fd6"
+        },
+        {
+          "offset": 4678820,
+          "before": "fd7bbfa9fd",
+          "after": "00008052c0"
+        },
+        {
+          "offset": 4678826,
+          "before": "0091",
+          "after": "5fd6"
+        }
+      ],
+      "changed_bytes": 4146
+    },
+    {
+      "path": "Frameworks/Alamofire.framework/Alamofire",
+      "carrier_sha256": "6340199914bbef0d0a53b82fb04980b8ee54cbe4b1fbea54156db67e0f91bbee",
+      "arm64_sha256": "6340199914bbef0d0a53b82fb04980b8ee54cbe4b1fbea54156db67e0f91bbee",
+      "patches": [
+        {
+          "offset": 3402,
+          "before": "19",
+          "after": "18"
+        },
+        {
+          "offset": 3416,
+          "before": "80d418",
+          "after": "50d717"
+        },
+        {
+          "offset": 3688,
+          "before": "02",
+          "after": "06"
+        },
+        {
+          "offset": 5716,
+          "before": "905901",
+          "after": "605c00"
+        }
+      ],
+      "changed_bytes": 8
+    },
+    {
+      "path": "Frameworks/AppAuth.framework/AppAuth",
+      "carrier_sha256": "d7716e72681d5553f9818cb926a77b355be708c172e3365b586cfb4b7c301f59",
+      "arm64_sha256": "d7716e72681d5553f9818cb926a77b355be708c172e3365b586cfb4b7c301f59",
+      "patches": [
+        {
+          "offset": 2456,
+          "before": "9061",
+          "after": "6045"
+        },
+        {
+          "offset": 2728,
+          "before": "02",
+          "after": "06"
+        },
+        {
+          "offset": 3580,
+          "before": "d065",
+          "after": "a049"
+        }
+      ],
+      "changed_bytes": 5
+    },
+    {
+      "path": "Frameworks/EPUBViewer.framework/EPUBViewer",
+      "carrier_sha256": "7eb13b0b302cbccc40d38b07be6067fdbef9486ee6eeea11ffa29d041b811bda",
+      "arm64_sha256": "7eb13b0b302cbccc40d38b07be6067fdbef9486ee6eeea11ffa29d041b811bda",
+      "patches": [
+        {
+          "offset": 3641,
+          "before": "0003",
+          "after": "c002"
+        },
+        {
+          "offset": 3657,
+          "before": "d1",
+          "after": "9b"
+        },
+        {
+          "offset": 3928,
+          "before": "02",
+          "after": "06"
+        },
+        {
+          "offset": 6397,
+          "before": "81",
+          "after": "4b"
+        }
+      ],
+      "changed_bytes": 5
+    },
+    {
+      "path": "Frameworks/FBLPromises.framework/FBLPromises",
+      "carrier_sha256": "03fe94073b7d51f0a5934ff8af1d506c66117b0b45e081252043e753f5f1d8d0",
+      "arm64_sha256": "03fe94073b7d51f0a5934ff8af1d506c66117b0b45e081252043e753f5f1d8d0",
+      "patches": [
+        {
+          "offset": 2296,
+          "before": "a06f",
+          "after": "c05e"
+        },
+        {
+          "offset": 2576,
+          "before": "02",
+          "after": "06"
+        },
+        {
+          "offset": 3060,
+          "before": "a059",
+          "after": "c048"
+        }
+      ],
+      "changed_bytes": 5
+    },
+    {
+      "path": "Frameworks/FirebaseCore.framework/FirebaseCore",
+      "carrier_sha256": "4e3961d25dd9ddebfde601516d6ca013676cd8fa3cc19dbcd430a7d14a05c352",
+      "arm64_sha256": "4e3961d25dd9ddebfde601516d6ca013676cd8fa3cc19dbcd430a7d14a05c352",
+      "patches": [
+        {
+          "offset": 2536,
+          "before": "7055",
+          "after": "4045"
+        },
+        {
+          "offset": 2816,
+          "before": "02",
+          "after": "06"
+        },
+        {
+          "offset": 3732,
+          "before": "d058",
+          "after": "a048"
+        }
+      ],
+      "changed_bytes": 5
+    },
+    {
+      "path": "Frameworks/FirebaseCoreExtension.framework/FirebaseCoreExtension",
+      "carrier_sha256": "0249089fc857a97bd001804e19a8e1541608402903013995f3e114a37307101d",
+      "arm64_sha256": "0249089fc857a97bd001804e19a8e1541608402903013995f3e114a37307101d",
+      "patches": [
+        {
+          "offset": 856,
+          "before": "d057",
+          "after": "4050"
+        },
+        {
+          "offset": 1152,
+          "before": "02",
+          "after": "06"
+        },
+        {
+          "offset": 1692,
+          "before": "a04f",
+          "after": "1048"
+        }
+      ],
+      "changed_bytes": 5
+    },
+    {
+      "path": "Frameworks/FirebaseCoreInternal.framework/FirebaseCoreInternal",
+      "carrier_sha256": "b5c019a3423cbf90ad791bc3e3eea8d87e1724d8db96dbb400c8b6354aec4860",
+      "arm64_sha256": "b5c019a3423cbf90ad791bc3e3eea8d87e1724d8db96dbb400c8b6354aec4860",
+      "patches": [
+        {
+          "offset": 2921,
+          "before": "80",
+          "after": "40"
+        },
+        {
+          "offset": 2936,
+          "before": "5056",
+          "after": "0036"
+        },
+        {
+          "offset": 3232,
+          "before": "02",
+          "after": "06"
+        },
+        {
+          "offset": 4972,
+          "before": "606a",
+          "after": "104a"
+        }
+      ],
+      "changed_bytes": 6
+    },
+    {
+      "path": "Frameworks/FirebaseCrashlytics.framework/FirebaseCrashlytics",
+      "carrier_sha256": "52ba6898346d7fe450bf033bebe04f781b0fd9de8a37cada1ea57a7b7d785d61",
+      "arm64_sha256": "52ba6898346d7fe450bf033bebe04f781b0fd9de8a37cada1ea57a7b7d785d61",
+      "patches": [
+        {
+          "offset": 2761,
+          "before": "c0",
+          "after": "80"
+        },
+        {
+          "offset": 2776,
+          "before": "408a",
+          "after": "8048"
+        },
+        {
+          "offset": 3072,
+          "before": "02",
+          "after": "06"
+        },
+        {
+          "offset": 4636,
+          "before": "908e",
+          "after": "d04c"
+        }
+      ],
+      "changed_bytes": 6
+    },
+    {
+      "path": "Frameworks/FirebaseInstallations.framework/FirebaseInstallations",
+      "carrier_sha256": "edabc8f86753452e2908ec275d3a34a022b00a4e80ded0566bf4229a550ae4e9",
+      "arm64_sha256": "edabc8f86753452e2908ec275d3a34a022b00a4e80ded0566bf4229a550ae4e9",
+      "patches": [
+        {
+          "offset": 2456,
+          "before": "f0fc",
+          "after": "80e4"
+        },
+        {
+          "offset": 2752,
+          "before": "02",
+          "after": "06"
+        },
+        {
+          "offset": 3724,
+          "before": "e061",
+          "after": "7049"
+        }
+      ],
+      "changed_bytes": 5
+    },
+    {
+      "path": "Frameworks/FirebaseSessions.framework/FirebaseSessions",
+      "carrier_sha256": "c58730084749aa023d037e6bdfafaa20a3bd828c2a0d2506c355238052919cc2",
+      "arm64_sha256": "c58730084749aa023d037e6bdfafaa20a3bd828c2a0d2506c355238052919cc2",
+      "patches": [
+        {
+          "offset": 3401,
+          "before": "80",
+          "after": "40"
+        },
+        {
+          "offset": 3416,
+          "before": "2056",
+          "after": "c035"
+        },
+        {
+          "offset": 3704,
+          "before": "02",
+          "after": "06"
+        },
+        {
+          "offset": 6076,
+          "before": "606a",
+          "after": "004a"
+        }
+      ],
+      "changed_bytes": 6
+    },
+    {
+      "path": "Frameworks/FloatingPanel.framework/FloatingPanel",
+      "carrier_sha256": "6ce34030fe5a190af66b7da873b071cfae134aaad1ff5919fc6e67c434beaae6",
+      "arm64_sha256": "6ce34030fe5a190af66b7da873b071cfae134aaad1ff5919fc6e67c434beaae6",
+      "patches": [
+        {
+          "offset": 3241,
+          "before": "c0",
+          "after": "80"
+        },
+        {
+          "offset": 3256,
+          "before": "9081",
+          "after": "5047"
+        },
+        {
+          "offset": 3536,
+          "before": "02",
+          "after": "06"
+        },
+        {
+          "offset": 5340,
+          "before": "6086",
+          "after": "204c"
+        }
+      ],
+      "changed_bytes": 6
+    },
+    {
+      "path": "Frameworks/GTMAppAuth.framework/GTMAppAuth",
+      "carrier_sha256": "a12dcd9481de285736eda4edbdaa248b708d25a9f2e757701ea1c9671a1dc18f",
+      "arm64_sha256": "a12dcd9481de285736eda4edbdaa248b708d25a9f2e757701ea1c9671a1dc18f",
+      "patches": [
+        {
+          "offset": 2376,
+          "before": "90e1",
+          "after": "a0d5"
+        },
+        {
+          "offset": 2648,
+          "before": "02",
+          "after": "06"
+        },
+        {
+          "offset": 3564,
+          "before": "5054",
+          "after": "6048"
+        }
+      ],
+      "changed_bytes": 5
+    },
+    {
+      "path": "Frameworks/GTMSessionFetcher.framework/GTMSessionFetcher",
+      "carrier_sha256": "e39eed68999b0540f1295592747dee797ee191bd15d4820bb22b064fbc8bde5e",
+      "arm64_sha256": "e39eed68999b0540f1295592747dee797ee191bd15d4820bb22b064fbc8bde5e",
+      "patches": [
+        {
+          "offset": 2441,
+          "before": "0003",
+          "after": "c002"
+        },
+        {
+          "offset": 2456,
+          "before": "40c9",
+          "after": "50a6"
+        },
+        {
+          "offset": 2744,
+          "before": "02",
+          "after": "06"
+        },
+        {
+          "offset": 3388,
+          "before": "306d",
+          "after": "404a"
+        }
+      ],
+      "changed_bytes": 7
+    },
+    {
+      "path": "Frameworks/GoogleDataTransport.framework/GoogleDataTransport",
+      "carrier_sha256": "6a18044621a2990ad2fdc9ae52d4bae279508b836d1e665f4e7e11015cd40d25",
+      "arm64_sha256": "6a18044621a2990ad2fdc9ae52d4bae279508b836d1e665f4e7e11015cd40d25",
+      "patches": [
+        {
+          "offset": 2521,
+          "before": "0003",
+          "after": "c002"
+        },
+        {
+          "offset": 2536,
+          "before": "70d8",
+          "after": "a0b6"
+        },
+        {
+          "offset": 2832,
+          "before": "02",
+          "after": "06"
+        },
+        {
+          "offset": 3932,
+          "before": "006c",
+          "after": "304a"
+        }
+      ],
+      "changed_bytes": 7
+    },
+    {
+      "path": "Frameworks/GoogleSignIn.framework/GoogleSignIn",
+      "carrier_sha256": "899cc1afef1f41c0cdcea3f72ad9f4db4883f7ab2f55b30a933bdb65f16fad06",
+      "arm64_sha256": "899cc1afef1f41c0cdcea3f72ad9f4db4883f7ab2f55b30a933bdb65f16fad06",
+      "patches": [
+        {
+          "offset": 2521,
+          "before": "0002",
+          "after": "c001"
+        },
+        {
+          "offset": 2536,
+          "before": "50d6",
+          "after": "a0be"
+        },
+        {
+          "offset": 2816,
+          "before": "02",
+          "after": "06"
+        },
+        {
+          "offset": 4148,
+          "before": "f060",
+          "after": "4049"
+        }
+      ],
+      "changed_bytes": 7
+    },
+    {
+      "path": "Frameworks/GoogleUtilities.framework/GoogleUtilities",
+      "carrier_sha256": "c69c7bdcd655002ca7fd73ae9011a34bd0e266c94b0a8ce355413715d20646e9",
+      "arm64_sha256": "c69c7bdcd655002ca7fd73ae9011a34bd0e266c94b0a8ce355413715d20646e9",
+      "patches": [
+        {
+          "offset": 2616,
+          "before": "c031",
+          "after": "b016"
+        },
+        {
+          "offset": 2904,
+          "before": "02",
+          "after": "06"
+        },
+        {
+          "offset": 3868,
+          "before": "b064",
+          "after": "a049"
+        }
+      ],
+      "changed_bytes": 5
+    },
+    {
+      "path": "Frameworks/KeychainItemWrapper.framework/KeychainItemWrapper",
+      "carrier_sha256": "5ac703818457a4950f84c7a7d65e580e23a7790c8d86509e89854fb04991e1ed",
+      "arm64_sha256": "5ac703818457a4950f84c7a7d65e580e23a7790c8d86509e89854fb04991e1ed",
+      "patches": [
+        {
+          "offset": 2056,
+          "before": "206b",
+          "after": "3063"
+        },
+        {
+          "offset": 2352,
+          "before": "02",
+          "after": "06"
+        },
+        {
+          "offset": 2916,
+          "before": "0050",
+          "after": "1048"
+        }
+      ],
+      "changed_bytes": 5
+    },
+    {
+      "path": "Frameworks/Moya.framework/Moya",
+      "carrier_sha256": "742c80c241494431b55c62e1ede2bacf2bbc207e52b5761a593fa18e0db0b79c",
+      "arm64_sha256": "742c80c241494431b55c62e1ede2bacf2bbc207e52b5761a593fa18e0db0b79c",
+      "patches": [
+        {
+          "offset": 3096,
+          "before": "3033",
+          "after": "d00a"
+        },
+        {
+          "offset": 3360,
+          "before": "02",
+          "after": "06"
+        },
+        {
+          "offset": 5068,
+          "before": "2073",
+          "after": "c04a"
+        }
+      ],
+      "changed_bytes": 5
+    },
+    {
+      "path": "Frameworks/Promises.framework/Promises",
+      "carrier_sha256": "d96724bed683f12cde71f88176bd8e3ecfd7ae30d0b76088980f46095f581dae",
+      "arm64_sha256": "d96724bed683f12cde71f88176bd8e3ecfd7ae30d0b76088980f46095f581dae",
+      "patches": [
+        {
+          "offset": 2681,
+          "before": "0002",
+          "after": "c001"
+        },
+        {
+          "offset": 2696,
+          "before": "70c0",
+          "after": "30ac"
+        },
+        {
+          "offset": 2968,
+          "before": "02",
+          "after": "06"
+        },
+        {
+          "offset": 4516,
+          "before": "405d",
+          "after": "0049"
+        }
+      ],
+      "changed_bytes": 7
+    },
+    {
+      "path": "Frameworks/RxAlamofire.framework/RxAlamofire",
+      "carrier_sha256": "a1b70079e7416003b57340efdbbb267c8fdba144cc636aaf9d0d3068df47aadd",
+      "arm64_sha256": "a1b70079e7416003b57340efdbbb267c8fdba144cc636aaf9d0d3068df47aadd",
+      "patches": [
+        {
+          "offset": 3016,
+          "before": "50de",
+          "after": "20c2"
+        },
+        {
+          "offset": 3296,
+          "before": "02",
+          "after": "06"
+        },
+        {
+          "offset": 4892,
+          "before": "d065",
+          "after": "a049"
+        }
+      ],
+      "changed_bytes": 5
+    },
+    {
+      "path": "Frameworks/RxCocoa.framework/RxCocoa",
+      "carrier_sha256": "6d26b94c0f5fbcc655bea910cb84af2e2de0f994db90bff38dea82c85478dfab",
+      "arm64_sha256": "6d26b94c0f5fbcc655bea910cb84af2e2de0f994db90bff38dea82c85478dfab",
+      "patches": [
+        {
+          "offset": 3961,
+          "before": "000e",
+          "after": "800d"
+        },
+        {
+          "offset": 3976,
+          "before": "80d1",
+          "after": "d04d"
+        },
+        {
+          "offset": 4248,
+          "before": "02",
+          "after": "06"
+        },
+        {
+          "offset": 6148,
+          "before": "f0d5",
+          "after": "4052"
+        }
+      ],
+      "changed_bytes": 7
+    },
+    {
+      "path": "Frameworks/RxRelay.framework/RxRelay",
+      "carrier_sha256": "4688b8a7ee1be297892e9eaa47efadcf3408dfbeb220ee8d977aa6429a215dc9",
+      "arm64_sha256": "4688b8a7ee1be297892e9eaa47efadcf3408dfbeb220ee8d977aa6429a215dc9",
+      "patches": [
+        {
+          "offset": 2521,
+          "before": "40",
+          "after": "00"
+        },
+        {
+          "offset": 2536,
+          "before": "100701",
+          "after": "60fb00"
+        },
+        {
+          "offset": 2808,
+          "before": "02",
+          "after": "06"
+        },
+        {
+          "offset": 4164,
+          "before": "f053",
+          "after": "4048"
+        }
+      ],
+      "changed_bytes": 7
+    },
+    {
+      "path": "Frameworks/RxSwift.framework/RxSwift",
+      "carrier_sha256": "06ab9cddacd5a9f78b32d51b0067c64935f8f21acd2fcb612e7c99fd9daa24ab",
+      "arm64_sha256": "06ab9cddacd5a9f78b32d51b0067c64935f8f21acd2fcb612e7c99fd9daa24ab",
+      "patches": [
+        {
+          "offset": 3321,
+          "before": "8013",
+          "after": "c012"
+        },
+        {
+          "offset": 3336,
+          "before": "307413",
+          "after": "d0b312"
+        },
+        {
+          "offset": 3608,
+          "before": "02",
+          "after": "06"
+        },
+        {
+          "offset": 5052,
+          "before": "c01701",
+          "after": "605700"
+        }
+      ],
+      "changed_bytes": 9
+    },
+    {
+      "path": "Frameworks/SVProgressHUD.framework/SVProgressHUD",
+      "carrier_sha256": "fedfdd4e2cdbb2115cf7f5e63d54102c35f49463deb08bd1a4c0fa1a0fb1385b",
+      "arm64_sha256": "fedfdd4e2cdbb2115cf7f5e63d54102c35f49463deb08bd1a4c0fa1a0fb1385b",
+      "patches": [
+        {
+          "offset": 2296,
+          "before": "102f",
+          "after": "a01f"
+        },
+        {
+          "offset": 2576,
+          "before": "02",
+          "after": "06"
+        },
+        {
+          "offset": 3316,
+          "before": "1058",
+          "after": "a048"
+        }
+      ],
+      "changed_bytes": 5
+    },
+    {
+      "path": "Frameworks/SnapKit.framework/SnapKit",
+      "carrier_sha256": "05e9bb41e999c80f67812833dd5fca186c85c247efcf5e5d620a0645ecd3f5d7",
+      "arm64_sha256": "05e9bb41e999c80f67812833dd5fca186c85c247efcf5e5d620a0645ecd3f5d7",
+      "patches": [
+        {
+          "offset": 3176,
+          "before": "2077",
+          "after": "b057"
+        },
+        {
+          "offset": 3448,
+          "before": "02",
+          "after": "06"
+        },
+        {
+          "offset": 5076,
+          "before": "7069",
+          "after": "004a"
+        }
+      ],
+      "changed_bytes": 5
+    },
+    {
+      "path": "Frameworks/UIImageViewAligned.framework/UIImageViewAligned",
+      "carrier_sha256": "066fecda8d987573111cc03f90ad80297158b4342295bf954fc9cb5c9622e33d",
+      "arm64_sha256": "066fecda8d987573111cc03f90ad80297158b4342295bf954fc9cb5c9622e33d",
+      "patches": [
+        {
+          "offset": 1896,
+          "before": "d06f",
+          "after": "f067"
+        },
+        {
+          "offset": 2184,
+          "before": "02",
+          "after": "06"
+        },
+        {
+          "offset": 2740,
+          "before": "f04f",
+          "after": "1048"
+        }
+      ],
+      "changed_bytes": 5
+    },
+    {
+      "path": "Frameworks/Zip.framework/Zip",
+      "carrier_sha256": "372088c3c1492fc0f9335f352afaf6d40c82701590202326b9f82ce68ed3aa26",
+      "arm64_sha256": "372088c3c1492fc0f9335f352afaf6d40c82701590202326b9f82ce68ed3aa26",
+      "patches": [
+        {
+          "offset": 2856,
+          "before": "f0a0",
+          "after": "108c"
+        },
+        {
+          "offset": 3120,
+          "before": "02",
+          "after": "06"
+        },
+        {
+          "offset": 4548,
+          "before": "005e",
+          "after": "2049"
+        }
+      ],
+      "changed_bytes": 5
+    },
+    {
+      "path": "Frameworks/eduPDFPlayer.framework/eduPDFPlayer",
+      "carrier_sha256": "acbb64390d5de84797abc739283b0c545f24b59e0c8f8323bd639bfa21c519c7",
+      "arm64_sha256": "acbb64390d5de84797abc739283b0c545f24b59e0c8f8323bd639bfa21c519c7",
+      "patches": [
+        {
+          "offset": 20,
+          "before": "58",
+          "after": "60"
+        },
+        {
+          "offset": 2929,
+          "before": "4016",
+          "after": "0013"
+        },
+        {
+          "offset": 2944,
+          "before": "400a16",
+          "after": "10fa12"
+        },
+        {
+          "offset": 3216,
+          "before": "25",
+          "after": "32"
+        },
+        {
+          "offset": 3220,
+          "before": "10",
+          "after": "18"
+        },
+        {
+          "offset": 3224,
+          "before": "00",
+          "after": "06"
+        },
+        {
+          "offset": 3226,
+          "before": "0b",
+          "after": "00"
+        },
+        {
+          "offset": 3229,
+          "before": "0512",
+          "after": "000b"
+        },
+        {
+          "offset": 3232,
+          "before": "2a0000",
+          "after": "000512"
+        },
+        {
+          "offset": 3236,
+          "before": "10",
+          "after": "00"
+        },
+        {
+          "offset": 3240,
+          "before": "00",
+          "after": "2a"
+        },
+        {
+          "offset": 3244,
+          "before": "00",
+          "after": "10"
+        },
+        {
+          "offset": 3248,
+          "before": "2c",
+          "after": "00"
+        },
+        {
+          "offset": 3252,
+          "before": "18",
+          "after": "00"
+        },
+        {
+          "offset": 3256,
+          "before": "0040",
+          "after": "2c00"
+        },
+        {
+          "offset": 3260,
+          "before": "00405f",
+          "after": "180000"
+        },
+        {
+          "offset": 3265,
+          "before": "00",
+          "after": "40"
+        },
+        {
+          "offset": 3269,
+          "before": "0000",
+          "after": "405f"
+        },
+        {
+          "offset": 3272,
+          "before": "0c",
+          "after": "00"
+        },
+        {
+          "offset": 3276,
+          "before": "58",
+          "after": "00"
+        },
+        {
+          "offset": 3280,
+          "before": "18",
+          "after": "0c"
+        },
+        {
+          "offset": 3284,
+          "before": "02",
+          "after": "58"
+        },
+        {
+          "offset": 3288,
+          "before": "00",
+          "after": "18"
+        },
+        {
+          "offset": 3290,
+          "before": "ae0d00",
+          "after": "000002"
+        },
+        {
+          "offset": 3294,
+          "before": "2c012f53797374656d2f4c696272617279",
+          "after": "00000000ae0d00002c012f53797374656d"
+        },
+        {
+          "offset": 3312,
+          "before": "4672616d65776f726b732f466f756e646174696f6e2e6672",
+          "after": "4c6962726172792f4672616d65776f726b732f466f756e64"
+        },
+        {
+          "offset": 3337,
+          "before": "6d65776f726b2f466f756e646174696f6e0000000000000c00",
+          "after": "74696f6e2e6672616d65776f726b2f466f756e646174696f6e"
+        },
+        {
+          "offset": 3364,
+          "before": "38",
+          "after": "00"
+        },
+        {
+          "offset": 3368,
+          "before": "18",
+          "after": "0c"
+        },
+        {
+          "offset": 3372,
+          "before": "02",
+          "after": "38"
+        },
+        {
+          "offset": 3376,
+          "before": "00",
+          "after": "18"
+        },
+        {
+          "offset": 3378,
+          "before": "e4",
+          "after": "00"
+        },
+        {
+          "offset": 3380,
+          "before": "00",
+          "after": "02"
+        },
+        {
+          "offset": 3382,
+          "before": "01",
+          "after": "00"
+        },
+        {
+          "offset": 3384,
+          "before": "2f7573722f6c6962",
+          "after": "0000e40000000100"
+        },
+        {
+          "offset": 3393,
+          "before": "6c69626f626a632e412e64796c696200000000000000000c",
+          "after": "7573722f6c69622f6c69626f626a632e412e64796c696200"
+        },
+        {
+          "offset": 3420,
+          "before": "30",
+          "after": "00"
+        },
+        {
+          "offset": 3424,
+          "before": "18",
+          "after": "0c"
+        },
+        {
+          "offset": 3428,
+          "before": "02",
+          "after": "30"
+        },
+        {
+          "offset": 3432,
+          "before": "00b46c0700",
+          "after": "1800000002"
+        },
+        {
+          "offset": 3438,
+          "before": "01",
+          "after": "00"
+        },
+        {
+          "offset": 3440,
+          "before": "2f7573722f6c6962",
+          "after": "00b46c0700000100"
+        },
+        {
+          "offset": 3449,
+          "before": "6c6962632b2b2e312e64796c6962000c000000380000",
+          "after": "7573722f6c69622f6c6962632b2b2e312e64796c6962"
+        },
+        {
+          "offset": 3472,
+          "before": "18",
+          "after": "0c"
+        },
+        {
+          "offset": 3476,
+          "before": "02",
+          "after": "38"
+        },
+        {
+          "offset": 3480,
+          "before": "00",
+          "after": "18"
+        },
+        {
+          "offset": 3482,
+          "before": "470500",
+          "after": "000002"
+        },
+        {
+          "offset": 3486,
+          "before": "01",
+          "after": "00"
+        },
+        {
+          "offset": 3488,
+          "before": "2f7573722f6c6962",
+          "after": "0000470500000100"
+        },
+        {
+          "offset": 3497,
+          "before": "6c696253797374656d2e422e64796c69620000000000000c00",
+          "after": "7573722f6c69622f6c696253797374656d2e422e64796c6962"
+        },
+        {
+          "offset": 3524,
+          "before": "58",
+          "after": "00"
+        },
+        {
+          "offset": 3528,
+          "before": "18",
+          "after": "0c"
+        },
+        {
+          "offset": 3532,
+          "before": "02",
+          "after": "58"
+        },
+        {
+          "offset": 3536,
+          "before": "00",
+          "after": "18"
+        },
+        {
+          "offset": 3538,
+          "before": "02",
+          "after": "00"
+        },
+        {
+          "offset": 3540,
+          "before": "00",
+          "after": "02"
+        },
+        {
+          "offset": 3542,
+          "before": "01",
+          "after": "00"
+        },
+        {
+          "offset": 3544,
+          "before": "2f53797374656d2f4c696272617279",
+          "after": "00000200000001002f53797374656d"
+        },
+        {
+          "offset": 3560,
+          "before": "4672616d65776f726b732f415646",
+          "after": "4c6962726172792f4672616d6577"
+        },
+        {
+          "offset": 3575,
+          "before": "756e646174696f6e2e6672",
+          "after": "726b732f4156466f756e64"
+        },
+        {
+          "offset": 3587,
+          "before": "6d65776f726b2f4156466f756e646174696f6e00000c0000005000",
+          "after": "74696f6e2e6672616d65776f726b2f4156466f756e646174696f6e"
+        },
+        {
+          "offset": 3616,
+          "before": "18",
+          "after": "0c"
+        },
+        {
+          "offset": 3620,
+          "before": "02",
+          "after": "50"
+        },
+        {
+          "offset": 3624,
+          "before": "00",
+          "after": "18"
+        },
+        {
+          "offset": 3626,
+          "before": "01",
+          "after": "00"
+        },
+        {
+          "offset": 3628,
+          "before": "00",
+          "after": "02"
+        },
+        {
+          "offset": 3630,
+          "before": "01",
+          "after": "00"
+        },
+        {
+          "offset": 3632,
+          "before": "2f53797374656d2f4c696272617279",
+          "after": "00000100000001002f53797374656d"
+        },
+        {
+          "offset": 3648,
+          "before": "4672616d65776f726b732f41564b69742e6672616d65776f726b2f41564b697400000000000000000c",
+          "after": "4c6962726172792f4672616d65776f726b732f41564b69742e6672616d65776f726b2f41564b697400"
+        },
+        {
+          "offset": 3692,
+          "before": "58",
+          "after": "00"
+        },
+        {
+          "offset": 3696,
+          "before": "18",
+          "after": "0c"
+        },
+        {
+          "offset": 3700,
+          "before": "02",
+          "after": "58"
+        },
+        {
+          "offset": 3704,
+          "before": "83fff20e00",
+          "after": "1800000002"
+        },
+        {
+          "offset": 3710,
+          "before": "01",
+          "after": "00"
+        },
+        {
+          "offset": 3712,
+          "before": "2f53797374656d2f4c696272617279",
+          "after": "83fff20e000001002f53797374656d"
+        },
+        {
+          "offset": 3728,
+          "before": "4672616d65776f726b732f43464e6574776f726b2e6672616d65776f726b2f43464e6574776f726b00000000000000000c",
+          "after": "4c6962726172792f4672616d65776f726b732f43464e6574776f726b2e6672616d65776f726b2f43464e6574776f726b00"
+        },
+        {
+          "offset": 3780,
+          "before": "60",
+          "after": "00"
+        },
+        {
+          "offset": 3784,
+          "before": "18",
+          "after": "0c"
+        },
+        {
+          "offset": 3788,
+          "before": "02",
+          "after": "60"
+        },
+        {
+          "offset": 3792,
+          "before": "0007b9",
+          "after": "180000"
+        },
+        {
+          "offset": 3796,
+          "before": "00",
+          "after": "02"
+        },
+        {
+          "offset": 3798,
+          "before": "01",
+          "after": "00"
+        },
+        {
+          "offset": 3800,
+          "before": "2f53797374656d2f4c696272617279",
+          "after": "0007b900000001002f53797374656d"
+        },
+        {
+          "offset": 3816,
+          "before": "4672616d65776f726b732f436f7265426c756574",
+          "after": "4c6962726172792f4672616d65776f726b732f43"
+        },
+        {
+          "offset": 3837,
+          "before": "6f74682e6672616d65776f726b2f436f7265426c756574",
+          "after": "7265426c7565746f6f74682e6672616d65776f726b2f43"
+        },
+        {
+          "offset": 3861,
+          "before": "6f746800000000000000000c",
+          "after": "7265426c7565746f6f746800"
+        },
+        {
+          "offset": 3876,
+          "before": "60",
+          "after": "00"
+        },
+        {
+          "offset": 3880,
+          "before": "18",
+          "after": "0c"
+        },
+        {
+          "offset": 3884,
+          "before": "02",
+          "after": "60"
+        },
+        {
+          "offset": 3888,
+          "before": "00",
+          "after": "18"
+        },
+        {
+          "offset": 3890,
+          "before": "ae0d00",
+          "after": "000002"
+        },
+        {
+          "offset": 3894,
+          "before": "96",
+          "after": "00"
+        },
+        {
+          "offset": 3896,
+          "before": "2f53797374656d2f4c696272617279",
+          "after": "0000ae0d000096002f53797374656d"
+        },
+        {
+          "offset": 3912,
+          "before": "4672616d65776f726b732f436f7265466f756e646174696f6e2e6672",
+          "after": "4c6962726172792f4672616d65776f726b732f436f7265466f756e64"
+        },
+        {
+          "offset": 3941,
+          "before": "6d65776f726b2f436f7265466f756e646174696f6e0000000000000c00",
+          "after": "74696f6e2e6672616d65776f726b2f436f7265466f756e646174696f6e"
+        },
+        {
+          "offset": 3972,
+          "before": "58",
+          "after": "00"
+        },
+        {
+          "offset": 3976,
+          "before": "18",
+          "after": "0c"
+        },
+        {
+          "offset": 3980,
+          "before": "02",
+          "after": "58"
+        },
+        {
+          "offset": 3984,
+          "before": "0305610700",
+          "after": "1800000002"
+        },
+        {
+          "offset": 3990,
+          "before": "40",
+          "after": "00"
+        },
+        {
+          "offset": 3992,
+          "before": "2f53797374656d2f4c696272617279",
+          "after": "03056107000040002f53797374656d"
+        },
+        {
+          "offset": 4008,
+          "before": "4672616d65776f726b732f436f726547726170686963732e6672616d65776f726b2f436f726547",
+          "after": "4c6962726172792f4672616d65776f726b732f436f726547726170686963732e6672616d65776f"
+        },
+        {
+          "offset": 4048,
+          "before": "61706869637300000c0000005800",
+          "after": "6b2f436f72654772617068696373"
+        },
+        {
+          "offset": 4064,
+          "before": "18",
+          "after": "0c"
+        },
+        {
+          "offset": 4068,
+          "before": "02",
+          "after": "58"
+        },
+        {
+          "offset": 4072,
+          "before": "00",
+          "after": "18"
+        },
+        {
+          "offset": 4074,
+          "before": "06",
+          "after": "00"
+        },
+        {
+          "offset": 4076,
+          "before": "00",
+          "after": "02"
+        },
+        {
+          "offset": 4078,
+          "before": "01",
+          "after": "00"
+        },
+        {
+          "offset": 4080,
+          "before": "2f53797374656d2f4c696272617279",
+          "after": "00000600000001002f53797374656d"
+        },
+        {
+          "offset": 4096,
+          "before": "4672616d65776f726b732f436f7265496d6167652e667261",
+          "after": "4c6962726172792f4672616d65776f726b732f436f726549"
+        },
+        {
+          "offset": 4121,
+          "before": "65776f726b2f436f7265496d61676500000000000000000c",
+          "after": "6167652e6672616d65776f726b2f436f7265496d61676500"
+        },
+        {
+          "offset": 4148,
+          "before": "58",
+          "after": "00"
+        },
+        {
+          "offset": 4152,
+          "before": "18",
+          "after": "0c"
+        },
+        {
+          "offset": 4156,
+          "before": "02",
+          "after": "58"
+        },
+        {
+          "offset": 4160,
+          "before": "0107990c00",
+          "after": "1800000002"
+        },
+        {
+          "offset": 4166,
+          "before": "01",
+          "after": "00"
+        },
+        {
+          "offset": 4168,
+          "before": "2f53797374656d2f4c696272617279",
+          "after": "0107990c000001002f53797374656d"
+        },
+        {
+          "offset": 4184,
+          "before": "4672616d65776f726b732f436f72654d656469612e6672616d65776f726b2f436f72654d6564696100000000000000000c",
+          "after": "4c6962726172792f4672616d65776f726b732f436f72654d656469612e6672616d65776f726b2f436f72654d6564696100"
+        },
+        {
+          "offset": 4236,
+          "before": "50",
+          "after": "00"
+        },
+        {
+          "offset": 4240,
+          "before": "18",
+          "after": "0c"
+        },
+        {
+          "offset": 4244,
+          "before": "02",
+          "after": "50"
+        },
+        {
+          "offset": 4248,
+          "before": "00054c0300",
+          "after": "1800000002"
+        },
+        {
+          "offset": 4254,
+          "before": "01",
+          "after": "00"
+        },
+        {
+          "offset": 4256,
+          "before": "2f53797374656d2f4c696272617279",
+          "after": "00054c03000001002f53797374656d"
+        },
+        {
+          "offset": 4272,
+          "before": "4672616d65776f726b732f436f7265546578742e66",
+          "after": "4c6962726172792f4672616d65776f726b732f436f"
+        },
+        {
+          "offset": 4294,
+          "before": "616d",
+          "after": "6554"
+        },
+        {
+          "offset": 4297,
+          "before": "776f726b2f436f72655465787400000c0000005800",
+          "after": "78742e6672616d65776f726b2f436f726554657874"
+        },
+        {
+          "offset": 4320,
+          "before": "18",
+          "after": "0c"
+        },
+        {
+          "offset": 4324,
+          "before": "02",
+          "after": "58"
+        },
+        {
+          "offset": 4328,
+          "before": "000501",
+          "after": "180000"
+        },
+        {
+          "offset": 4332,
+          "before": "000201",
+          "after": "020000"
+        },
+        {
+          "offset": 4336,
+          "before": "2f53797374656d2f4c696272617279",
+          "after": "00050100000201002f53797374656d"
+        },
+        {
+          "offset": 4352,
+          "before": "4672616d65776f726b732f436f7265566964656f2e6672616d6577",
+          "after": "4c6962726172792f4672616d65776f726b732f436f726556696465"
+        },
+        {
+          "offset": 4380,
+          "before": "726b2f436f7265566964656f00000000000000000c",
+          "after": "2e6672616d65776f726b2f436f7265566964656f00"
+        },
+        {
+          "offset": 4404,
+          "before": "50",
+          "after": "00"
+        },
+        {
+          "offset": 4408,
+          "before": "18",
+          "after": "0c"
+        },
+        {
+          "offset": 4412,
+          "before": "02",
+          "after": "50"
+        },
+        {
+          "offset": 4416,
+          "before": "00",
+          "after": "18"
+        },
+        {
+          "offset": 4418,
+          "before": "01",
+          "after": "00"
+        },
+        {
+          "offset": 4420,
+          "before": "00",
+          "after": "02"
+        },
+        {
+          "offset": 4422,
+          "before": "01",
+          "after": "00"
+        },
+        {
+          "offset": 4424,
+          "before": "2f53797374656d2f4c696272617279",
+          "after": "00000100000001002f53797374656d"
+        },
+        {
+          "offset": 4440,
+          "before": "4672616d65776f726b732f496d616765494f2e6672",
+          "after": "4c6962726172792f4672616d65776f726b732f496d"
+        },
+        {
+          "offset": 4462,
+          "before": "6d",
+          "after": "67"
+        },
+        {
+          "offset": 4464,
+          "before": "776f726b2f49",
+          "after": "494f2e667261"
+        },
+        {
+          "offset": 4471,
+          "before": "616765494f000000000c00000068",
+          "after": "65776f726b2f496d616765494f00"
+        },
+        {
+          "offset": 4488,
+          "before": "18",
+          "after": "0c"
+        },
+        {
+          "offset": 4492,
+          "before": "02",
+          "after": "68"
+        },
+        {
+          "offset": 4496,
+          "before": "00",
+          "after": "18"
+        },
+        {
+          "offset": 4498,
+          "before": "ca0400",
+          "after": "000002"
+        },
+        {
+          "offset": 4502,
+          "before": "01",
+          "after": "00"
+        },
+        {
+          "offset": 4504,
+          "before": "2f53797374656d2f4c696272617279",
+          "after": "0000ca04000001002f53797374656d"
+        },
+        {
+          "offset": 4520,
+          "before": "4672616d65776f726b732f4d6f62696c65436f726553657276696365732e66",
+          "after": "4c6962726172792f4672616d65776f726b732f4d6f62696c65436f72655365"
+        },
+        {
+          "offset": 4552,
+          "before": "616d65776f726b2f4d6f62696c65436f726553657276696365730000000000000c00",
+          "after": "76696365732e6672616d65776f726b2f4d6f62696c65436f72655365727669636573"
+        },
+        {
+          "offset": 4588,
+          "before": "58",
+          "after": "00"
+        },
+        {
+          "offset": 4592,
+          "before": "18",
+          "after": "0c"
+        },
+        {
+          "offset": 4596,
+          "before": "02",
+          "after": "58"
+        },
+        {
+          "offset": 4600,
+          "before": "000b01",
+          "after": "180000"
+        },
+        {
+          "offset": 4604,
+          "before": "000201",
+          "after": "020000"
+        },
+        {
+          "offset": 4608,
+          "before": "2f53797374656d2f4c696272617279",
+          "after": "000b0100000201002f53797374656d"
+        },
+        {
+          "offset": 4624,
+          "before": "4672616d65776f726b732f51756172747a436f72652e6672616d65776f726b2f51756172747a436f72650000000000000c00",
+          "after": "4c6962726172792f4672616d65776f726b732f51756172747a436f72652e6672616d65776f726b2f51756172747a436f7265"
+        },
+        {
+          "offset": 4676,
+          "before": "50",
+          "after": "00"
+        },
+        {
+          "offset": 4680,
+          "before": "18",
+          "after": "0c"
+        },
+        {
+          "offset": 4684,
+          "before": "02",
+          "after": "50"
+        },
+        {
+          "offset": 4688,
+          "before": "017affef00",
+          "after": "1800000002"
+        },
+        {
+          "offset": 4694,
+          "before": "01",
+          "after": "00"
+        },
+        {
+          "offset": 4696,
+          "before": "2f53797374656d2f4c696272617279",
+          "after": "017affef000001002f53797374656d"
+        },
+        {
+          "offset": 4712,
+          "before": "4672616d65776f726b732f53",
+          "after": "4c6962726172792f4672616d"
+        },
+        {
+          "offset": 4725,
+          "before": "6375",
+          "after": "776f"
+        },
+        {
+          "offset": 4728,
+          "before": "6974792e6672616d65776f726b2f536563757269747900000c0000006800",
+          "after": "6b732f53656375726974792e6672616d65776f726b2f5365637572697479"
+        },
+        {
+          "offset": 4760,
+          "before": "18",
+          "after": "0c"
+        },
+        {
+          "offset": 4764,
+          "before": "02",
+          "after": "68"
+        },
+        {
+          "offset": 4768,
+          "before": "0378470500",
+          "after": "1800000002"
+        },
+        {
+          "offset": 4774,
+          "before": "01",
+          "after": "00"
+        },
+        {
+          "offset": 4776,
+          "before": "2f53797374656d2f4c696272617279",
+          "after": "03784705000001002f53797374656d"
+        },
+        {
+          "offset": 4792,
+          "before": "4672616d65776f726b732f53797374656d436f6e66696775726174696f6e2e66",
+          "after": "4c6962726172792f4672616d65776f726b732f53797374656d436f6e66696775"
+        },
+        {
+          "offset": 4826,
+          "before": "6d65776f726b2f53797374656d436f6e66696775726174696f6e000000000c00000050",
+          "after": "74696f6e2e6672616d65776f726b2f53797374656d436f6e66696775726174696f6e00"
+        },
+        {
+          "offset": 4864,
+          "before": "18",
+          "after": "0c"
+        },
+        {
+          "offset": 4868,
+          "before": "02",
+          "after": "50"
+        },
+        {
+          "offset": 4872,
+          "before": "65013a2100",
+          "after": "1800000002"
+        },
+        {
+          "offset": 4878,
+          "before": "01",
+          "after": "00"
+        },
+        {
+          "offset": 4880,
+          "before": "2f53797374656d2f4c696272617279",
+          "after": "65013a21000001002f53797374656d"
+        },
+        {
+          "offset": 4896,
+          "before": "4672616d65776f726b732f55494b69742e6672616d65776f726b2f55494b697400000000000000000c",
+          "after": "4c6962726172792f4672616d65776f726b732f55494b69742e6672616d65776f726b2f55494b697400"
+        },
+        {
+          "offset": 4940,
+          "before": "50",
+          "after": "00"
+        },
+        {
+          "offset": 4944,
+          "before": "18",
+          "after": "0c"
+        },
+        {
+          "offset": 4948,
+          "before": "02",
+          "after": "50"
+        },
+        {
+          "offset": 4952,
+          "before": "05026d0200",
+          "after": "1800000002"
+        },
+        {
+          "offset": 4958,
+          "before": "01",
+          "after": "00"
+        },
+        {
+          "offset": 4960,
+          "before": "2f53797374656d2f4c696272617279",
+          "after": "05026d02000001002f53797374656d"
+        },
+        {
+          "offset": 4976,
+          "before": "4672616d65776f726b732f57",
+          "after": "4c6962726172792f4672616d"
+        },
+        {
+          "offset": 4989,
+          "before": "624b69742e6672616d65776f726b2f5765624b69740000000000000c00",
+          "after": "776f726b732f5765624b69742e6672616d65776f726b2f5765624b6974"
+        },
+        {
+          "offset": 5020,
+          "before": "38",
+          "after": "00"
+        },
+        {
+          "offset": 5024,
+          "before": "18",
+          "after": "0c"
+        },
+        {
+          "offset": 5028,
+          "before": "02",
+          "after": "38"
+        },
+        {
+          "offset": 5032,
+          "before": "00090a",
+          "after": "180000"
+        },
+        {
+          "offset": 5036,
+          "before": "00",
+          "after": "02"
+        },
+        {
+          "offset": 5038,
+          "before": "0a",
+          "after": "00"
+        },
+        {
+          "offset": 5040,
+          "before": "2f7573722f6c6962",
+          "after": "00090a0000000a00"
+        },
+        {
+          "offset": 5049,
+          "before": "6c6962786d6c322e322e64796c696200000000000000000c",
+          "after": "7573722f6c69622f6c6962786d6c322e322e64796c696200"
+        },
+        {
+          "offset": 5076,
+          "before": "30",
+          "after": "00"
+        },
+        {
+          "offset": 5080,
+          "before": "18",
+          "after": "0c"
+        },
+        {
+          "offset": 5084,
+          "before": "02",
+          "after": "30"
+        },
+        {
+          "offset": 5088,
+          "before": "0c0201",
+          "after": "180000"
+        },
+        {
+          "offset": 5092,
+          "before": "00",
+          "after": "02"
+        },
+        {
+          "offset": 5094,
+          "before": "01",
+          "after": "00"
+        },
+        {
+          "offset": 5096,
+          "before": "2f7573722f6c6962",
+          "after": "0c02010000000100"
+        },
+        {
+          "offset": 5105,
+          "before": "6c69627a2e312e64796c69620000001c00008028",
+          "after": "7573722f6c69622f6c69627a2e312e64796c6962"
+        },
+        {
+          "offset": 5128,
+          "before": "0c",
+          "after": "1c"
+        },
+        {
+          "offset": 5131,
+          "before": "004065786563757461626c655f7061",
+          "after": "80280000000c000000406578656375"
+        },
+        {
+          "offset": 5147,
+          "before": "682f4672616d65776f726b73001c000080200000",
+          "after": "61626c655f706174682f4672616d65776f726b73"
+        },
+        {
+          "offset": 5168,
+          "before": "0c",
+          "after": "1c"
+        },
+        {
+          "offset": 5171,
+          "before": "004c6962726172792f4672616d65776f726b730000260000001000",
+          "after": "80200000000c0000004c6962726172792f4672616d65776f726b73"
+        },
+        {
+          "offset": 5200,
+          "before": "08b977",
+          "after": "260000"
+        },
+        {
+          "offset": 5204,
+          "before": "207d",
+          "after": "1000"
+        },
+        {
+          "offset": 5208,
+          "before": "290000",
+          "after": "08b977"
+        },
+        {
+          "offset": 5212,
+          "before": "1000",
+          "after": "207d"
+        },
+        {
+          "offset": 5216,
+          "before": "283678",
+          "after": "290000"
+        },
+        {
+          "offset": 5220,
+          "before": "00",
+          "after": "10"
+        },
+        {
+          "offset": 5224,
+          "before": "1d0000",
+          "after": "283678"
+        },
+        {
+          "offset": 5228,
+          "before": "10",
+          "after": "00"
+        },
+        {
+          "offset": 5232,
+          "before": "707182",
+          "after": "1d0000"
+        },
+        {
+          "offset": 5236,
+          "before": "d09803",
+          "after": "100000"
+        },
+        {
+          "offset": 5240,
+          "before": "000000",
+          "after": "707182"
+        },
+        {
+          "offset": 5244,
+          "before": "0000",
+          "after": "a088"
+        }
+      ],
+      "changed_bytes": 1626
+    },
+    {
+      "path": "Frameworks/ezpdfsKyobo.framework/ezpdfsKyobo",
+      "carrier_sha256": "866d11f4f117bd0b4742780515a7398442f263dbf9d2fab77b0dae821b527441",
+      "arm64_sha256": "866d11f4f117bd0b4742780515a7398442f263dbf9d2fab77b0dae821b527441",
+      "patches": [
+        {
+          "offset": 4442,
+          "before": "12",
+          "after": "10"
+        },
+        {
+          "offset": 4456,
+          "before": "707512",
+          "after": "406a10"
+        },
+        {
+          "offset": 4736,
+          "before": "02",
+          "after": "06"
+        },
+        {
+          "offset": 7596,
+          "before": "107e02",
+          "after": "e07200"
+        }
+      ],
+      "changed_bytes": 8
+    },
+    {
+      "path": "Frameworks/finger.framework/finger",
+      "carrier_sha256": "ca9402fff82608068d829749ab2485657325cfba54e21f51147b4a7a1068c7b6",
+      "arm64_sha256": "ca9402fff82608068d829749ab2485657325cfba54e21f51147b4a7a1068c7b6",
+      "patches": [
+        {
+          "offset": 20,
+          "before": "b8",
+          "after": "c0"
+        },
+        {
+          "offset": 2529,
+          "before": "0001",
+          "after": "c000"
+        },
+        {
+          "offset": 2544,
+          "before": "f0d1",
+          "after": "00b9"
+        },
+        {
+          "offset": 2800,
+          "before": "25",
+          "after": "32"
+        },
+        {
+          "offset": 2804,
+          "before": "10",
+          "after": "18"
+        },
+        {
+          "offset": 2808,
+          "before": "00",
+          "after": "06"
+        },
+        {
+          "offset": 2810,
+          "before": "08",
+          "after": "00"
+        },
+        {
+          "offset": 2813,
+          "before": "040f",
+          "after": "0008"
+        },
+        {
+          "offset": 2816,
+          "before": "2a0000",
+          "after": "00040f"
+        },
+        {
+          "offset": 2820,
+          "before": "10",
+          "after": "00"
+        },
+        {
+          "offset": 2824,
+          "before": "00",
+          "after": "2a"
+        },
+        {
+          "offset": 2828,
+          "before": "00",
+          "after": "10"
+        },
+        {
+          "offset": 2832,
+          "before": "2c",
+          "after": "00"
+        },
+        {
+          "offset": 2836,
+          "before": "18",
+          "after": "00"
+        },
+        {
+          "offset": 2840,
+          "before": "0040",
+          "after": "2c00"
+        },
+        {
+          "offset": 2844,
+          "before": "008002",
+          "after": "180000"
+        },
+        {
+          "offset": 2849,
+          "before": "00",
+          "after": "40"
+        },
+        {
+          "offset": 2853,
+          "before": "0000",
+          "after": "8002"
+        },
+        {
+          "offset": 2856,
+          "before": "0c",
+          "after": "00"
+        },
+        {
+          "offset": 2860,
+          "before": "58",
+          "after": "00"
+        },
+        {
+          "offset": 2864,
+          "before": "18",
+          "after": "0c"
+        },
+        {
+          "offset": 2868,
+          "before": "02",
+          "after": "58"
+        },
+        {
+          "offset": 2872,
+          "before": "0070420700",
+          "after": "1800000002"
+        },
+        {
+          "offset": 2878,
+          "before": "2c012f53797374656d2f4c696272617279",
+          "after": "00000070420700002c012f53797374656d"
+        },
+        {
+          "offset": 2896,
+          "before": "4672616d65776f726b732f466f756e646174696f6e2e6672",
+          "after": "4c6962726172792f4672616d65776f726b732f466f756e64"
+        },
+        {
+          "offset": 2921,
+          "before": "6d65776f726b2f466f756e646174696f6e0000000000000c00",
+          "after": "74696f6e2e6672616d65776f726b2f466f756e646174696f6e"
+        },
+        {
+          "offset": 2948,
+          "before": "38",
+          "after": "00"
+        },
+        {
+          "offset": 2952,
+          "before": "18",
+          "after": "0c"
+        },
+        {
+          "offset": 2956,
+          "before": "02",
+          "after": "38"
+        },
+        {
+          "offset": 2960,
+          "before": "00",
+          "after": "18"
+        },
+        {
+          "offset": 2962,
+          "before": "e4",
+          "after": "00"
+        },
+        {
+          "offset": 2964,
+          "before": "00",
+          "after": "02"
+        },
+        {
+          "offset": 2966,
+          "before": "01",
+          "after": "00"
+        },
+        {
+          "offset": 2968,
+          "before": "2f7573722f6c6962",
+          "after": "0000e40000000100"
+        },
+        {
+          "offset": 2977,
+          "before": "6c69626f626a632e412e64796c696200000000000000000c",
+          "after": "7573722f6c69622f6c69626f626a632e412e64796c696200"
+        },
+        {
+          "offset": 3004,
+          "before": "38",
+          "after": "00"
+        },
+        {
+          "offset": 3008,
+          "before": "18",
+          "after": "0c"
+        },
+        {
+          "offset": 3012,
+          "before": "02",
+          "after": "38"
+        },
+        {
+          "offset": 3016,
+          "before": "03641f0500",
+          "after": "1800000002"
+        },
+        {
+          "offset": 3022,
+          "before": "01",
+          "after": "00"
+        },
+        {
+          "offset": 3024,
+          "before": "2f7573722f6c6962",
+          "after": "03641f0500000100"
+        },
+        {
+          "offset": 3033,
+          "before": "6c696253797374656d2e422e64796c69620000000000000c00",
+          "after": "7573722f6c69622f6c696253797374656d2e422e64796c6962"
+        },
+        {
+          "offset": 3060,
+          "before": "60",
+          "after": "00"
+        },
+        {
+          "offset": 3064,
+          "before": "18",
+          "after": "0c"
+        },
+        {
+          "offset": 3068,
+          "before": "02",
+          "after": "60"
+        },
+        {
+          "offset": 3072,
+          "before": "0070420700",
+          "after": "1800000002"
+        },
+        {
+          "offset": 3078,
+          "before": "96",
+          "after": "00"
+        },
+        {
+          "offset": 3080,
+          "before": "2f53797374656d2f4c696272617279",
+          "after": "00704207000096002f53797374656d"
+        },
+        {
+          "offset": 3096,
+          "before": "4672616d65776f726b732f436f7265466f756e646174696f6e2e6672",
+          "after": "4c6962726172792f4672616d65776f726b732f436f7265466f756e64"
+        },
+        {
+          "offset": 3125,
+          "before": "6d65776f726b2f436f7265466f756e646174696f6e0000000000000c00",
+          "after": "74696f6e2e6672616d65776f726b2f436f7265466f756e646174696f6e"
+        },
+        {
+          "offset": 3156,
+          "before": "50",
+          "after": "00"
+        },
+        {
+          "offset": 3160,
+          "before": "18",
+          "after": "0c"
+        },
+        {
+          "offset": 3164,
+          "before": "02",
+          "after": "50"
+        },
+        {
+          "offset": 3168,
+          "before": "8564feea00",
+          "after": "1800000002"
+        },
+        {
+          "offset": 3174,
+          "before": "01",
+          "after": "00"
+        },
+        {
+          "offset": 3176,
+          "before": "2f53797374656d2f4c696272617279",
+          "after": "8564feea000001002f53797374656d"
+        },
+        {
+          "offset": 3192,
+          "before": "4672616d65776f726b732f53",
+          "after": "4c6962726172792f4672616d"
+        },
+        {
+          "offset": 3205,
+          "before": "6375",
+          "after": "776f"
+        },
+        {
+          "offset": 3208,
+          "before": "6974792e6672616d65776f726b2f536563757269747900000c0000005000",
+          "after": "6b732f53656375726974792e6672616d65776f726b2f5365637572697479"
+        },
+        {
+          "offset": 3240,
+          "before": "18",
+          "after": "0c"
+        },
+        {
+          "offset": 3244,
+          "before": "02",
+          "after": "50"
+        },
+        {
+          "offset": 3248,
+          "before": "6502921500",
+          "after": "1800000002"
+        },
+        {
+          "offset": 3254,
+          "before": "01",
+          "after": "00"
+        },
+        {
+          "offset": 3256,
+          "before": "2f53797374656d2f4c696272617279",
+          "after": "65029215000001002f53797374656d"
+        },
+        {
+          "offset": 3272,
+          "before": "4672616d65776f726b732f55494b69742e6672616d65776f726b2f55494b6974000000000000000018",
+          "after": "4c6962726172792f4672616d65776f726b732f55494b69742e6672616d65776f726b2f55494b697400"
+        },
+        {
+          "offset": 3315,
+          "before": "8068",
+          "after": "0000"
+        },
+        {
+          "offset": 3323,
+          "before": "0002",
+          "after": "8068"
+        },
+        {
+          "offset": 3328,
+          "before": "00",
+          "after": "18"
+        },
+        {
+          "offset": 3330,
+          "before": "01",
+          "after": "00"
+        },
+        {
+          "offset": 3332,
+          "before": "00",
+          "after": "02"
+        },
+        {
+          "offset": 3334,
+          "before": "01",
+          "after": "00"
+        },
+        {
+          "offset": 3336,
+          "before": "2f53797374656d2f4c696272617279",
+          "after": "00000100000001002f53797374656d"
+        },
+        {
+          "offset": 3352,
+          "before": "4672616d65776f726b732f557365724e6f74696669636174696f6e732e6672616d65776f726b2f5573",
+          "after": "4c6962726172792f4672616d65776f726b732f557365724e6f74696669636174696f6e732e6672616d"
+        },
+        {
+          "offset": 3394,
+          "before": "724e6f74696669636174696f6e7300000000000000001c",
+          "after": "776f726b2f557365724e6f74696669636174696f6e7300"
+        },
+        {
+          "offset": 3419,
+          "before": "8028",
+          "after": "0000"
+        },
+        {
+          "offset": 3424,
+          "before": "0c",
+          "after": "1c"
+        },
+        {
+          "offset": 3427,
+          "before": "004065786563757461626c655f7061",
+          "after": "80280000000c000000406578656375"
+        },
+        {
+          "offset": 3443,
+          "before": "682f4672616d65776f726b73001c000080280000",
+          "after": "61626c655f706174682f4672616d65776f726b73"
+        },
+        {
+          "offset": 3464,
+          "before": "0c",
+          "after": "1c"
+        },
+        {
+          "offset": 3467,
+          "before": "00406c6f616465725f706174682f46",
+          "after": "80280000000c000000406c6f616465"
+        },
+        {
+          "offset": 3483,
+          "before": "616d65776f726b730000000000260000",
+          "after": "5f706174682f4672616d65776f726b73"
+        },
+        {
+          "offset": 3500,
+          "before": "10",
+          "after": "00"
+        },
+        {
+          "offset": 3504,
+          "before": "f09003",
+          "after": "260000"
+        },
+        {
+          "offset": 3508,
+          "before": "7001",
+          "after": "1000"
+        },
+        {
+          "offset": 3512,
+          "before": "290000",
+          "after": "f09003"
+        },
+        {
+          "offset": 3516,
+          "before": "1000",
+          "after": "7001"
+        },
+        {
+          "offset": 3520,
+          "before": "609203",
+          "after": "290000"
+        },
+        {
+          "offset": 3524,
+          "before": "00",
+          "after": "10"
+        },
+        {
+          "offset": 3528,
+          "before": "1d0000",
+          "after": "609203"
+        },
+        {
+          "offset": 3532,
+          "before": "10",
+          "after": "00"
+        },
+        {
+          "offset": 3536,
+          "before": "90ef03",
+          "after": "1d0000"
+        },
+        {
+          "offset": 3540,
+          "before": "6062",
+          "after": "1000"
+        },
+        {
+          "offset": 3544,
+          "before": "000000",
+          "after": "90ef03"
+        },
+        {
+          "offset": 3548,
+          "before": "0000",
+          "after": "7049"
+        }
+      ],
+      "changed_bytes": 582
+    },
+    {
+      "path": "Frameworks/nanopb.framework/nanopb",
+      "carrier_sha256": "ff6badff1d2b324617bd21dc673b4ca0c90bc99f5e2ed93869fd13b027fc84a5",
+      "arm64_sha256": "ff6badff1d2b324617bd21dc673b4ca0c90bc99f5e2ed93869fd13b027fc84a5",
+      "patches": [
+        {
+          "offset": 1496,
+          "before": "b07a",
+          "after": "7072"
+        },
+        {
+          "offset": 1760,
+          "before": "02",
+          "after": "06"
+        },
+        {
+          "offset": 2148,
+          "before": "4050",
+          "after": "0048"
+        }
+      ],
+      "changed_bytes": 5
+    }
+  ],
+  "plist_changes": {
+    "LSRequiresIPhoneOS": false,
+    "CFBundleSupportedPlatforms": [
+      "MacOSX"
+    ],
+    "LSMinimumSystemVersion": "13.0"
+  }
+}

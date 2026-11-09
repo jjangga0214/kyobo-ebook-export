@@ -1,0 +1,35 @@
+# Local books, catalogs, account state, and private working notes
+/books/
+/.local/
+/exports/
+**/.kyobo-export/
+kyobo-export-manifest.json
+*.pdf
+*.epub
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.plist
+*.cer
+*.lic
+*.pem
+*.key
+*.p12
+*.pfx
+.env
+.env.*
+
+# Generated native binaries and caches
+*.app/
+*.framework/
+*.dylib
+*.o
+*.dSYM/
+__pycache__/
+*.py[cod]
+.DS_Store
+*.log
+*.stdout
+*.stderr
